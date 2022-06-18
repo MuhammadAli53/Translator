@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/black_shade_1"
+            >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <EditText
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@color/black_shade_1"
+                    android:gravity="start"
+                    android:hint="Write something or Press the mic and Starts Speaking!"
+                    android:justificationMode="inter_word"
+                    android:padding="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="12sp" />
+            </ScrollView>
+
+            <TextView
+                android:id="@+id/button2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="175dp"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/remove"
+                android:padding="5dp"
+
+                android:textSize="12sp"></TextView>
+
+            <TextView
+                android:id="@+id/button5"
+                android:layout_width="20dp"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="175dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/loud"
+                android:padding="5dp"
+
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/iv12"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="170dp"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/ic_copy"></ImageView>
+
+            <ImageView
+                android:id="@+id/iv14"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="170dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/ic_share"></ImageView>
+
+            <ImageView
+                android:id="@+id/iv13"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="176dp"
+                android:layout_marginRight="63dp"
+                android:background="@drawable/wa"></ImageView>
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/button"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve"
+            android:backgroundTint="@color/black_shade_1"
+            android:gravity="center"
+            android:text="Translate"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/black_shade_1"
+            >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/black_shade_1"
+                    android:hint="Translator..."
+                    android:justificationMode="inter_word"
+                    android:padding="10dp"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textSize="12sp" />
+            </ScrollView>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="170dp"
+                android:layout_marginRight="4dp"
+                android:background="@drawable/ic_copy"></ImageView>
+
+            <TextView
+                android:id="@+id/button6"
+                android:layout_width="20dp"
+                android:layout_height="80dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="175dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/loud"
+                android:padding="5dp"
+
+                android:textSize="12sp"></TextView>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="170dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/ic_share"></ImageView>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="17dp"
+                android:layout_height="17dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="176dp"
+                android:layout_marginRight="63dp"
+                android:background="@drawable/wa"></ImageView>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/fromSpinner"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:background="@drawable/curve"
+                android:text="English"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/ic_arrow"
+                android:layout_weight="3"/>
+
+            <Spinner
+                android:id="@+id/toSpinner"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="50dp"
+                android:layout_weight="3"
+                android:background="@drawable/curve"
+
+                android:text="English"
+                android:textColor="@color/green"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/curve"
+            app:srcCompat="@drawable/ic_mic" />
+    </LinearLayout>
+</ScrollView>
+

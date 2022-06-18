@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "79199979893",
+    "project_id": "final-stt",
+    "storage_bucket": "final-stt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79199979893:android:65a27d5802372c1824eb3c",
+        "android_client_info": {
+          "package_name": "com.appwithali.finalstt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "79199979893-qh3ls4j49s4c7iko9sjm2nkaa9r8ptfu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-1oCQLgeO58qqdsFglIx84zTicFYw4NE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "79199979893-qh3ls4j49s4c7iko9sjm2nkaa9r8ptfu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
